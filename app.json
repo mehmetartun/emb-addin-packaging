@@ -3,9 +3,9 @@
 {
     "startup_app": {
         "name": "EMB Excel Addin",
-        "url": "http://192.168.85.251/~mehmetartun/emb-addin-packaging/index.php",
+        "url": "http://192.168.0.50/~embonds/emb-addin-packaging/index.php",
         "uuid": "embonds",
-        "applicationIcon": "http://192.168.85.251/~mehmetartun/emb-addin-packaging/images/embx-a-openfin.ico",
+        "applicationIcon": "http://192.168.0.50/~embonds/emb-addin-packaging/images/embx-a-openfin.ico",
         "autoShow": true,
         "defaultWidth": 760,
         "defaultHeight": 704,
@@ -17,18 +17,18 @@
         "arguments": "",
         "version": "stable"
     },
-    "splashScreenImage": "http://192.168.85.251/~mehmetartun/emb-addin-packaging/images/embx-a-favicon-114.png",
+    "splashScreenImage": "http://192.168.0.50/~embonds/emb-addin-packaging/images/embx-a-favicon-114.png",
     "shortcut": {
         "company": "EMBonds",
         "description": "emb-addin-packaging",
-        "icon": "http://192.168.85.251/~mehmetartun/emb-addin-packaging/images/embx-a-openfin.ico",
+        "icon": "http://192.168.0.50/~embonds/emb-addin-packaging/images/embx-a-openfin.ico",
         "name": "emb-addin-packaging"
     },
     "appAssets": [
         {
-            "src": "http://192.168.85.251/~mehmetartun/emb-addin-packaging/emb-addin-packaging.zip",
+            "src": "http://192.168.0.50/~embonds/emb-addin-packaging/emb-addin-packaging.zip",
             "alias": "emb-addin-packaging",
-            "version": "1.0.3"
+            "version": "1.0.0"
         }
     ]
 }
