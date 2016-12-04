@@ -1,9 +1,9 @@
 {
     "startup_app": {
         "name": "EMbonds Addin",
-        "url": "http://dev.embonds.com/addin/",
+        "url": "http://192.168.0.50/~embonds/emb-addin-packaging/",
         "uuid": "embondsaddin",
-        "applicationIcon": "http://dev.embonds.com/addin/images/embx-a-favicon.ico",
+        "applicationIcon": "http://192.168.0.50/~embonds/emb-addin-packaging/images/embx-a-favicon.ico",
         "autoShow": true,
         "defaultWidth": 760,
         "defaultHeight": 704,
@@ -15,16 +15,16 @@
         "arguments": "",
         "version": "stable"
     },
-    "splashScreenImage": "http://dev.embonds.com/addin/splash_excel.png",
+    "splashScreenImage": "http://192.168.0.50/~embonds/emb-addin-packaging/splash_excel.png",
     "shortcut": {
         "company": "EMBondsAddin",
         "description": "embonds-addin",
-        "icon": "http://dev.embonds.com/addin/images/embx-a-favicon.ico",
+        "icon": "http://192.168.0.50/~embonds/emb-addin-packaging/embx-a-favicon.ico",
         "name": "embonds-addin"
     },
     "appAssets": [
         {
-            "src": "http://dev.embonds.com/addin/add-in.zip",
+            "src": "http://192.168.0.50/~embonds/emb-addin-packaging/add-in.zip",
             "alias": "embonds-addin",
             "version": "1.0.5"
         }
