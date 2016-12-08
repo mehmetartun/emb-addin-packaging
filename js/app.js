@@ -11,6 +11,18 @@ $("#installbutton").click(function(){
 		installAddIn();
     });
 });
+$("#openfininstallbutton").click(function(){
+    fin.desktop.main(function(){
+		installOpenfinAddIn();
+    });
+});
+$("#launchembondspricer").click(function(){
+    fin.desktop.main(function(){
+		launchEMBondsPricer();
+    });
+});
+
+
 
 
 function installAddIn() {
@@ -21,8 +33,24 @@ function installAddIn() {
             console.log('Installer script completed!');
 			console.log(args);
 
-            if (args.exitCode == 0) {
+        }
+    });
+}
 
+function installOpenfinAddIn() {
+    fin.desktop.System.launchExternalProcess({
+        alias: 'embonds-addin',
+        target: 'InstallOpenfinAddIn.vbs',
+        listener: function (args) {
+            console.log('Installer script completed!');
+			console.log(args);
+
+        }
+    });
+}
+
+
+function launchEMBondsPricer(){
                 fin.desktop.System.launchExternalProcess({
                     alias: "embonds-addin",
                     target: "TR-Eurobonds-Enable-Macros.xlsm",
@@ -39,7 +67,3 @@ function installAddIn() {
 
             }
         }
-    });
-}
-
-
