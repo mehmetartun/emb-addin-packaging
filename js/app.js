@@ -65,5 +65,4 @@ function launchEMBondsPricer(){
                         console.log('Error in launching Excel');
                     });
 
-            }
-        }
+				}
