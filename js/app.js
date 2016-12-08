@@ -53,7 +53,7 @@ function installOpenfinAddIn() {
 function launchEMBondsPricer(){
                 fin.desktop.System.launchExternalProcess({
                     alias: "embonds-addin",
-                    target: "TR-Eurobonds-Enable-Macros.xlsm",
+                    target: "EMBondsPricer.xlsm",
                     listener: function(code) {
                             console.log('the exit code', code);
                         }
