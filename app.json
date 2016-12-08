@@ -26,7 +26,7 @@
         {
             "src": "http://dev.embonds.com/addin/add-in.zip",
             "alias": "embonds-addin",
-            "version": "1.0.6"
+            "version": "1.0.7"
         }
     ]
 }
