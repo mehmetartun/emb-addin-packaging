@@ -11,7 +11,7 @@ $("#installbutton").click(function(){
 		installAddIn();
     });
 });
-$("#openfininstallbutton").click(function(){
+$("#installopenfinbutton").click(function(){
     fin.desktop.main(function(){
 		installOpenfinAddIn();
     });
